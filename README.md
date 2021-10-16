@@ -1,6 +1,7 @@
 # MOSFET
-Different MOSFET(NMOS &amp; PMOS) based circuits
-  XOR GATE
+Different MOSFET(NMOS &amp; PMOS) based circuits.
+
+     XOR GATE
   ![image](https://user-images.githubusercontent.com/60343675/137577046-825f8a4f-cb02-494b-9208-d327130258d1.png)
              NAND
            ![image](https://user-images.githubusercontent.com/60343675/137577137-9759df11-1610-438b-a481-a2a3084a3863.png)
