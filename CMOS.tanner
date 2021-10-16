@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design CMOS -cell Cell30 -type schematic -newwindow
+window move -left 160 -top 160 -width 1252 -height 540 -undock -max 
+window fit -x0 -3618 -y0 -2275 -x1 4301 -y1 1685 -units iu
+workspace dockinglayout load -file dockinglayout.xml
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8
