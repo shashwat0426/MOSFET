@@ -1,0 +1,57 @@
+T-Spice - Tanner SPICE
+T-Spice - Tanner SPICE
+Version 16.30
+Network license
+Product Release ID: T-Spice Win64 16.30.20150626.02:41:53
+Copyright © 1988-2015 Mentor Graphics Corporation
+
+	Parsing "C:\Users\prata\AppData\Local\Temp\Cell30.sp"
+	Initializing parser from header file "C:\Program Files\Tanner EDA\Tanner Tools v16.3\tiburonda\models\VAdatabase.sp"
+	Reading library entry "TT" from "C:/Users/prata/OneDrive/Documents/Tanner EDA/Tanner Tools v16.3/Process/Generic_250nm/Generic_250nm_Tech/Generic_250nm.lib"
+	Reading library entry "GEN" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "GEN_LVS" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "Diodes" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "RES_CAP_GEN" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "SIM_SUBCIRCUITS" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "TT_NMOS" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "NMOS_MODEL" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "TT_PMOS" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "PMOS_MODEL" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "RES_TYP" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "RES_SUBCIRCUITS" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "CAP_TYP" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "CAP_SUBCIRCUITS" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "TT_Bipolar" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+	Reading library entry "Bipolars" from "C:\Users\prata\OneDrive\Documents\Tanner EDA\Tanner Tools v16.3\Process\Generic_250nm\Generic_250nm_Tech\Generic_250nm.lib"
+
+Start of Cell30.sp
+Loaded BSIM3v33 model library, Berkeley BSIM3 v3.3.0
+Loaded BSIM3v31 model library, Berkeley BSIM3 v3.1.0 with extensions
+Loaded BJT model library, Gummel-Poon Bipolar with extensions
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -       8
+    MOSFET geometries -       2
+      Voltage sources -       5
+   Subckt Definitions -       1
+     Subckt Instances -       0
+    Model Definitions -       6
+      Computed Models -       2
+    Independent nodes -       3
+       Boundary nodes -       6
+          Total nodes -       9
+
+	Opening simulation database "C:\Users\prata\AppData\Local\Temp\Cell30.tsim"
+
+Parsing                      0.11 seconds
+Setup                        0.03 seconds
+DC operating point           0.04 seconds
+Transient Analysis           0.19 seconds
+Overhead                     0.38 seconds
+-----------------------------------------
+Total                        0.74 seconds
+
+Simulation completed
