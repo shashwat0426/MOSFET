@@ -1,36 +1,41 @@
 THEORY CMOS:-
 In CMOS (Complementary Metal-oxide Semiconductor). technology, both N-type and P-type transistors are used to design logic functions. 
 The same signal which turns ON a transistor of one type is used to turn OFF a transistor of the other type. 
-In CMOS logic gates a collection of n-type MOSFETs is arranged in a pull-down network between the output and the low voltage power supply rail (Vss or quite often ground). 
-Instead of the load resistor of NMOS logic gates, CMOS logic gates have a collection of p-type MOSFETs in a pull-up network between the output and the higher-voltage 
-rail (often named Vdd).Thus, if both p-type and n-type transistor have their gates connected to the same input,the p-type MOSFET will be ON when the n-type MOSFET is OFF,
-and vice-versa. The networks are arranged such that one is ON and the other OFF for any input pattern.
+In CMOS logic gates a collection of n-type MOSFETs is arranged in a pull-down network between the output and the low voltage power supply rail 
+(Vss or quite often ground). Instead of the load resistor of NMOS logic gates, CMOS logic gates have a collection of p-type MOSFETs in a pull-up 
+network between the output and the higher-voltage rail (often named Vdd).Thus, if both p-type and n-type transistor have their gates connected to
+the same input,the p-type MOSFET will be ON when the n-type MOSFET is OFF, and vice-versa. The networks are arranged such that one is ON and the 
+other OFF for any input pattern.
 
 NMOS-
-NMOS is built on a p-type substrate with n-type source and drain diffused on it. In NMOS, the majority of carriers are electrons. When a high voltage is applied to the gate,
-the NMOS will conduct. Similarly, when a low voltage is applied to the gate, NMOS will not conduct. NMOS is considered to be faster than PMOS, since the carriers in NMOS,
-which are electrons, travel twice as fast as the holes.
+NMOS is built on a p-type substrate with n-type source and drain diffused on it. In NMOS, the majority of carriers are electrons. When a high 
+voltage is applied to the gate,the NMOS will conduct. Similarly, when a low voltage is applied to the gate, NMOS will not conduct. NMOS is 
+considered to be faster than PMOS, since the carriers in NMOS, which are electrons, travel twice as fast as the holes.
 
 PMOS-     
-P- channel MOSFET consists of P-type Source and Drain diffused on an N-type substrate. The majority of carriers are holes. When a high voltage is applied to the gate, 
-the PMOS will not conduct. When a low voltage is applied to the gate, the PMOS will conduct. The PMOS devices are more immune to noise than NMOS devices.
+P- channel MOSFET consists of P-type Source and Drain diffused on an N-type substrate. The majority of carriers are holes. When a high voltage
+is applied to the gate, the PMOS will not conduct. When a low voltage is applied to the gate, the PMOS will conduct. The PMOS devices are more 
+immune to noise than NMOS devices.
 
 CMOS(INVERTER) Working Principle: -
-A CMOS inverter is a field-effect transistor that is composed of a metal gate that lies on top of an insulating layer of oxygen, which lies on top of a semiconductor.
-The inverter circuit consists of PMOS and NMOS. The input A serves as the gate voltage for both transistors.
-The NMOS transistor has input from Vss (ground) and the PMOS transistor has input from Vdd. The terminal Y is output. When a high voltage (~ Vdd) is given at input terminal (A) 
-of the inverter, the PMOS becomes an open circuit, and NMOS switched OFF so the output will be pulled down to Vss.
+A CMOS inverter is a field-effect transistor that is composed of a metal gate that lies on top of an insulating layer of oxygen, which lies
+on top of a semiconductor.The inverter circuit consists of PMOS and NMOS. The input A serves as the gate voltage for both transistors.
+The NMOS transistor has input from Vss (ground) and the PMOS transistor has input from Vdd. The terminal Y is output. When a high voltage
+(~ Vdd) is given at input terminal (A) of the inverter, the PMOS becomes an open circuit, and NMOS switched OFF so the output will be pulled
+down to Vss.
 
 INPUT	LOGIC INPUT	OUTPUT	LOGIC OUTPUT
 0 v   	    0    	Vdd	        1
 Vdd	    1	        0 v           	0
-When a low-level voltage (<Vdd, ~0v) applied to the inverter, the NMOS switched OFF and PMOS switched ON. So the output becomes Vdd or the circuit is pulled up to Vdd.
+When a low-level voltage (<Vdd, ~0v) applied to the inverter, the NMOS switched OFF and PMOS switched ON. So the output becomes Vdd or 
+the circuit is pulled up to Vdd.
 
 CMOS (NAND GATE) Working Principle: -
-It is a 2-input Complementary MOS NAND gate. It consists of two series NMOS transistors between OUT and Ground and two parallel PMOS transistors between OUT and VDD.
-If either input A or B is logic 0, at least one of the NMOS transistors will be OFF, breaking the path from Y to Ground. But at least one of the pMOS transistors will be ON,
-creating a path from OUT to VDD. Hence, the output (OUT) will be high. If both inputs are high, both of the nMOS transistors will be ON and both of the pMOS transistors 
-will be OFF. Hence, the output will be logic low. The truth table of the NAND logic gate given in the below table.
+It is a 2-input Complementary MOS NAND gate. It consists of two series NMOS transistors between OUT and Ground and two parallel PMOS 
+transistors between OUT and VDD. If either input A or B is logic 0, at least one of the NMOS transistors will be OFF, breaking the
+path from Y to Ground. But at least one of the pMOS transistors will be ON, creating a path from OUT to VDD. Hence, the output (OUT) 
+will be high. If both inputs are high, both of the nMOS transistors will be ON and both of the pMOS transistors will be OFF. Hence, the 
+output will be logic low. The truth table of the NAND logic gate given in the below table.
 
 A   	B	Pull-Down Network	Pull-up Network	OUT
 0	    0   	OFF              	ON	         1
@@ -39,34 +44,37 @@ A   	B	Pull-Down Network	Pull-up Network	OUT
 1	    1    	ON	                OFF        	 0
 
 Theory TG: - 
-A transmission gate (TG), or analog switch, is defined as an electronic element that will selectively block or pass a signal level from the input to the output. 
-This solid-state switch is comprised of a pMOS transistor and nMOS transistor. The control gates are biased in a complementary manner so that both transistors are 
-either on or off. It is an analog gate similar to a relay that can conduct in both directions or block by a control signal with almost any voltage potential. It is a 
-CMOS-based switch, in which PMOS passes a strong 1 but poor 0, and NMOS passes strong 0 but poor 1. Both PMOS and NMOS work simultaneously.
-Transmission gates are typically used as building blocks for logic circuitry, such as a D Latch or D Flip-Flop. As a stand-alone circuit, a transmission gate can
-isolate a component or components from live signals during hot insertion or removal.
-In principle, a transmission gate is made up of two FET, in which – in contrast to traditional discrete field-effect transistors – the substrate terminal (bulk)
-is not connected internally to the source terminal. The two transistors, an n-channel MOSFET and a p-channel MOSFET, are connected in parallel with this, however, only 
-the drain and source terminals of the two transistors are connected together. Their gate terminals are connected to each other by a NOT gate to form the control terminal.
+A transmission gate (TG), or analog switch, is defined as an electronic element that will selectively block or pass a signal level from 
+the input to the output. This solid-state switch is comprised of a pMOS transistor and nMOS transistor. The control gates are biased in 
+a complementary manner so that both transistors are either on or off. It is an analog gate similar to a relay that can conduct in both 
+directions or block by a control signal with almost any voltage potential. It is a CMOS-based switch, in which PMOS passes a strong 1 but
+poor 0, and NMOS passes strong 0 but poor 1. Both PMOS and NMOS work simultaneously. Transmission gates are typically used as building blocks
+for logic circuitry, such as a D Latch or D Flip-Flop. As a stand-alone circuit, a transmission gate can isolate a component or components from
+live signals during hot insertion or removal. In principle, a transmission gate is made up of two FET, in which – in contrast to traditional 
+discrete field-effect transistors – the substrate terminal (bulk) is not connected internally to the source terminal. The two transistors,
+an n-channel MOSFET and a p-channel MOSFET, are connected in parallel with this, however, only the drain and source terminals of the two
+transistors are connected together. Their gate terminals are connected to each other by a NOT gate to form the control terminal.
 
 TRANSMISSION GATE (TG) Working Principle: -
-When the control input is a logic 0, the gate of the n-channel MOSFET is also at a negative supply voltage potential. The gate terminal of the p-channel MOSFET is caused 
-by the inverter, to the positive supply voltage potential. Regardless of on which switching terminal of the transmission gate a voltage is applied, the gate-source voltage
-of the n-channel MOSFETs is always negative, and the p-channel MOSFETs is always positive. Accordingly, neither of the two transistors will conduct and the transmission gate 
-turns off.
-When the control input is a logic 1, the gate terminal of the n-channel MOSFETs is located at a positive supply voltage potential. By the inverter, the gate terminal of
-the p-channel MOSFETs is now at a negative supply voltage potential. As the substrate terminal of the transistors is not connected to the source terminal, the drain 
-and source terminals are almost equal and the transistors start conducting at a voltage difference between the gate terminal and one of these conducts.
-One of the switching terminals of the transmission gate is raised to a voltage near the negative supply voltage, a positive gate-source voltage (gate-to-drain voltage) 
-will occur at the N-channel MOSFET, and the transistor begins to conduct, and the transmission gate conducts. The voltage at one of the switching terminals of the 
-transmission gate is now raised continuously up to the positive supply voltage potential, so the gate-source voltage is reduced (gate-drain voltage) on the n-channel
-MOSFET, and this begins to turn off. At the same time, the p-channel MOSFET has a negative gate-source voltage (gate-to-drain voltage) builds up, whereby this transistor
-starts to conduct and the transmission gate switches.
+When the control input is a logic 0, the gate of the n-channel MOSFET is also at a negative supply voltage potential. The gate terminal
+of the p-channel MOSFET is caused by the inverter, to the positive supply voltage potential. Regardless of on which switching terminal
+of the transmission gate a voltage is applied, the gate-source voltage of the n-channel MOSFETs is always negative, and the p-channel 
+MOSFETs is always positive. Accordingly, neither of the two transistors will conduct and the transmission gate turns off.
+When the control input is a logic 1, the gate terminal of the n-channel MOSFETs is located at a positive supply voltage potential.
+By the inverter, the gate terminal of the p-channel MOSFETs is now at a negative supply voltage potential. As the substrate terminal
+of the transistors is not connected to the source terminal, the drain and source terminals are almost equal and the transistors 
+start conducting at a voltage difference between the gate terminal and one of these conducts. One of the switching terminals of
+the transmission gate is raised to a voltage near the negative supply voltage, a positive gate-source voltage (gate-to-drain voltage) 
+will occur at the N-channel MOSFET, and the transistor begins to conduct, and the transmission gate conducts. The voltage at one of the
+switching terminals of the transmission gate is now raised continuously up to the positive supply voltage potential, so the gate-source
+voltage is reduced (gate-drain voltage) on the n-channelMOSFET, and this begins to turn off. At the same time, the p-channel MOSFET has
+a negative gate-source voltage (gate-to-drain voltage) builds up, whereby this transistorstarts to conduct and the transmission gate switches.
 
 
     Advantages of using transmission gate logic: -
 	A CMOS transmission gate can be constructed by parallel combination of nMOS and pMOS transistors, with complementary gate signals.
-	The main advantage of CMOS transmission gate compared to nMOS transmission gate is to allow the input signal to be transmitted to the output without the threshold voltage attenuation.
+	The main advantage of CMOS transmission gate compared to nMOS transmission gate is to allow the input signal to be transmitted 
+     to the output without the threshold voltage attenuation.
 	It allows full rail transition i.e. ratioless logic
 	The equivalent resistance is relatively constant during transition.
 	Some gates are efficient implemented using transmission gate.
@@ -74,11 +82,12 @@ starts to conduct and the transmission gate switches.
 
 
 2:1 MUX (TG) Working Principle: -
-A 2:1 multiplexer can be implemented using transmission gates. Figure below shows the connection diagram of the   2:1 multiplexer using transmission gates. 
-The 2:1 MUX selects either A or B depending upon the control signal C. This is equivalent to implementing the Boolean function,
-When the control signal C is high then the upper transmission gate is ON and it passes A through it so that output = A.
-When the control signal C is low then the upper transmission gate turns OFF and it will not allow A to pass through it, at the same time the lower 
-transmission gate is 'ON' and it allows B to pass through it so the output = B.
+A 2:1 multiplexer can be implemented using transmission gates. Figure below shows the connection diagram of the  
+2:1 multiplexer using transmission gates. The 2:1 MUX selects either A or B depending upon the control signal C. 
+This is equivalent to implementing the Boolean function, When the control signal C is high then the upper transmission gate
+is ON and it passes A through it so that output = A. When the control signal C is low then the upper transmission gate turns
+OFF and it will not allow A to pass through it, at the same time the lower transmission gate is 'ON' and it allows B to pass
+through it so the output = B.
 
 CONTROL     	A	     B	     LOGIC OUTPUT
 0    	      OPEN	   CLOSED	 A
