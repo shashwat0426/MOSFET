@@ -18,7 +18,7 @@ Different logics of MOSFET(NMOS &amp; PMOS) based circuits.
          ![image](https://user-images.githubusercontent.com/60343675/137577153-f820f245-13f7-4528-ac5f-ca4a8f6c0621.png)
          ![image](https://user-images.githubusercontent.com/60343675/143591728-7b733374-1ed5-4b0a-bbfe-594d02e1c594.png)
          
-  CMOS-- INVERTER DC ANALYSIS
+  *CMOS-- INVERTER DC ANALYSIS*
          ![image](https://user-images.githubusercontent.com/60343675/137577176-59834e0e-0715-4be5-9063-d717c7e2ca70.png)
          ![image](https://user-images.githubusercontent.com/60343675/143591694-d28f00f7-8932-47c3-9137-d4c00677b1cf.png)
 
