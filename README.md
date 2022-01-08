@@ -3,8 +3,7 @@ Different logics of MOSFET(NMOS &amp; PMOS) based circuits.
    
    TRANSMISSION GATE---                                                                                                                                                               
     2:1 Multiplexer
-         ![image](https://user-images.githubusercontent.com/60343675/143591483-3571d204-bf68-498c-bffb-09df51ce625a.png)
-         
+         ![image](https://user-images.githubusercontent.com/60343675/143591483-3571d204-bf68-498c-bffb-09df51ce625a.png) 
          ![image](https://user-images.githubusercontent.com/60343675/143591532-581d87b6-50dd-486c-bd21-bc49146d7ab0.png)
 
    CMOS--    
